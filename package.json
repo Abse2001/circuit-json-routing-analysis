@@ -23,8 +23,6 @@
 	},
 	"dependencies": {
 		"circuit-json": "^0.0.439",
-		"flatbush": "^4.5.1",
-		"format-si-unit": "^0.0.7",
-		"graphics-debug": "^0.0.95"
+		"flatbush": "^4.5.1"
 	}
 }
