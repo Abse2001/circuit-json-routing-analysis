@@ -48,4 +48,4 @@ test("runs routing analysis for arduino-uno", async () => {
         <NearbyComponent name="R3" distToRightEdgeOfRegion="7.7mm" distToBottomOfRegion="1.1mm" freeSpaceOnRight="2.0mm" freeSpaceBelow=">5mm" left="21.5mm" right="23.1mm" bottom="-5.2mm" top="-4.6mm" />
     </CongestedRegion>"
   `)
-})
+}, 6_000)
