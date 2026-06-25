@@ -22,7 +22,7 @@
 		"typescript": "^5"
 	},
 	"dependencies": {
-		"circuit-json": "^0.0.406",
+		"circuit-json": "^0.0.439",
 		"flatbush": "^4.5.1"
 	}
 }
