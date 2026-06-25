@@ -50,6 +50,13 @@ export interface NearbyComponent {
   freeSpaceBelow?: string
 }
 
+export interface NearbyComponentOffsetFromRegion extends NearbyComponent {
+  offsetFromLeftEdgeOfRegion?: string
+  offsetFromRightEdgeOfRegion?: string
+  offsetFromTopEdgeOfRegion?: string
+  offsetFromBottomEdgeOfRegion?: string
+}
+
 export interface CongestedRegion {
   lineItemType: "CongestedRegion"
   probabilityOfFailure: string
